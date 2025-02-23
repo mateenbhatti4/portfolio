@@ -24,44 +24,43 @@ export default function Experience() {
               <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
               <header
                 className="z-10 mb-2 mt-1 text-md font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2"
-                aria-label="Aug 2022 — Present"
+                aria-label="Aug 2023 — Present"
               >
-                Aug 2022 — Present
+                Aug 2023 — Present
               </header>
               <div className="z-10 sm:col-span-6">
                 <h2 className=" text-lg font-medium leading-snug text-slate-200">
                   <div>
                     <span className="text-lg font-medium sm:text-xl">
-                      Senior Software Engineer · InvoZone
+                      Software Engineer — Tinktanc
                     </span>
                   </div>
                 </h2>
                 <p className="mt-2 text-md leading-normal">
-                  ⬥ My responsibility included developing client projects,
-                  ensuring high-quality software engineering practices, and
-                  timely delivery.
+                  ⬥ Collaborated with cross-functional teams, including
+                  designers, product managers, and developers, to ensure
+                  seamless integration of new features.
                 </p>
                 <p className="mt-2 text-md leading-normal">
-                  ⬥ Architecting and implementing secure and scalable software
-                  solutions, adhering to industry best practices and
-                  cybersecurity standards.
+                  ⬥ Designed and developed scalable web and mobile applications
+                  using React.js, Node.js, Express.js, and MongoDB to meet
+                  client requirements
                 </p>
                 {showMore && (
                   <>
                     <p className="mt-2 text-md leading-normal">
-                      ⬥ Serving as the technical point of contact for clients,
-                      addressing concerns, providing updates, and ensuring
-                      client satisfaction.
+                      ⬥ Built and optimized RESTful APIs for efficient data
+                      communication between frontend and backend.
                     </p>
                     <p className="mt-2 text-md leading-normal">
-                      ⬥ Leading and contributing to cybersecurity-based
-                      projects, including vulnerability assessments, penetration
-                      testing, and implementing security controls.
+                      ⬥ Managed databases using MongoDB and MySQL, ensuring
+                      efficient data storage, retrieval, and performance
+                      optimization.
                     </p>
                     <p className="mt-2 text-md leading-normal">
-                      ⬥ Mentoring junior team members, conducting code reviews,
-                      and enhancing software engineering practices to maintain
-                      code quality and optimize processes.
+                      ⬥ Integrated third-party services, APIs, and
+                      authentication mechanisms like JWT, OAuth, and Firebase
+                      for secure and seamless user experiences.
                     </p>
                   </>
                 )}
@@ -93,11 +92,6 @@ export default function Experience() {
                   <li className="mr-1.5 mt-2">
                     <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
                       Node.js
-                    </div>
-                  </li>
-                  <li className="mr-1.5 mt-2">
-                    <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                      Amazon Dynamodb
                     </div>
                   </li>
                   <li className="mr-1.5 mt-2">
@@ -162,17 +156,7 @@ export default function Experience() {
                   </li>
                   <li className="mr-1.5 mt-2">
                     <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                      DAX
-                    </div>
-                  </li>
-                  <li className="mr-1.5 mt-2">
-                    <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
                       AWS Lambda
-                    </div>
-                  </li>
-                  <li className="mr-1.5 mt-2">
-                    <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                      AWS CDK
                     </div>
                   </li>
                   <li className="mr-1.5 mt-2">
@@ -195,11 +179,6 @@ export default function Experience() {
                       Firebase
                     </div>
                   </li>
-                  <li className="mr-1.5 mt-2">
-                    <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                      ChatGPT
-                    </div>
-                  </li>
                 </ul>
               </div>
             </div>
@@ -210,35 +189,35 @@ export default function Experience() {
               <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
               <header
                 className="z-10 mb-2 mt-1 text-md font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2"
-                aria-label="Oct 2021 — Jul 2022"
+                aria-label="Feb 2023 — Jul 2023"
               >
-                Oct 2021 — Jul 2022
+                Feb 2023 - July 2023
               </header>
               <div className="z-10 sm:col-span-6">
                 <h2 className=" text-lg font-medium leading-snug text-slate-200">
                   <div>
                     <span className="text-lg font-medium sm:text-xl">
-                      Development Team Lead · Tinktanc
+                      Associate Software Engineer — Hello World Technology
                     </span>
                   </div>
                 </h2>
                 <p className="mt-2 text-md leading-normal">
-                  ⬥ My responsibilities included leading a team of developers,
-                  providing guidance, mentorship, and support throughout the
-                  software development lifecycle.
+                  ⬥ Working as a full-stack developer using the MERN stack,
+                  contributing to both frontend and backend development.
                 </p>
                 <p className="mt-2 text-md leading-normal">
-                  ⬥ Collaborating with cross-functional teams, including product
-                  managers, designers, and stakeholders, to define project
-                  requirements, scope, and timelines.
+                  ⬥ Developing interactive and responsive user interfaces using
+                  React.js to enhance user experience.
                 </p>
                 {showMore && (
                   <>
                     <p className="mt-2 text-md leading-normal">
-                      ⬥ Overseeing the planning, execution, and delivery of
-                      development projects, ensuring adherence to coding
-                      standards, quality assurance processes, and project
-                      milestones.
+                      ⬥ Managing and maintaining databases using MySQL, ensuring
+                      efficient data storage and retrieval.
+                    </p>
+                    <p className="mt-2 text-md leading-normal">
+                      ⬥ Collaborating with the team to implement new features,
+                      fix issues, and improve application performance.
                     </p>
                   </>
                 )}
@@ -335,6 +314,59 @@ export default function Experience() {
                   <li className="mr-1.5 mt-2">
                     <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
                       Firebase
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+
+          <li className="mb-12">
+            <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+              <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+              <header
+                className="z-10 mb-2 mt-1 text-md font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2"
+                aria-label="Nov 2022 - Jan 2023"
+              >
+                Nov 2022 - Jan 2023
+              </header>
+              <div className="z-10 sm:col-span-6">
+                <h2 className=" text-lg font-medium leading-snug text-slate-200">
+                  <div>
+                    <span className="text-lg font-medium sm:text-xl">
+                      ReactJS Intern — Hello World Technolog
+                    </span>
+                  </div>
+                </h2>
+                <p className="mt-2 text-md leading-normal">
+                  ⬥ I started working as an intern at Hello World Technology and
+                  worked with different frontend projects and build a couple of
+                  websites including e-commerce and static websites using React,
+                  Redux, Material UI and Strapi
+                </p>
+
+                <ul
+                  className="mt-2 flex flex-wrap"
+                  aria-label="Technologies used"
+                >
+                  <li className="mr-1.5 mt-2">
+                    <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      React js
+                    </div>
+                  </li>
+                  <li className="mr-1.5 mt-2">
+                    <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      Redux
+                    </div>
+                  </li>
+                  <li className="mr-1.5 mt-2">
+                    <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      Material UI
+                    </div>
+                  </li>
+                  <li className="mr-1.5 mt-2">
+                    <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      Strapi
                     </div>
                   </li>
                 </ul>

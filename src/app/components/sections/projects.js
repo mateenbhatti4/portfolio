@@ -4,18 +4,16 @@ import ProjectItem from "./projectitem";
 export default function Projects() {
   const projects = [
     {
-      name: "Stigmi Learning",
-      link: "https://stigmilearning.com/",
-      description:
-        "I led the development of Stigmi Learning, an interactive learning platform designed to connect tutors and students. The platform, built with AdonisJS and MongoDB for the backend, and React for the frontend, provides a user-friendly experience for both students and educators, making personalized learning more accessible and efficient.",
-      technologies: ["AdonisJs", "MongoDB", "Next.js", "Node.js", "ChatGPT"],
-      imageUrl: "/assets/projects/logo-stigmi.png",
+      name: "Kinematica – Dispersing & Homogenizing Solutions",
+      link: "https://www.kinematicausa.com/",
+      description:"Kinematica is a premier provider of dispersing and homogenizing processing solutions, serving laboratories and production plants worldwide since 1962. kinematica expertise covers various industries, including pharmaceuticals, cosmetics, chemicals, life sciences, and food.",
+      technologies: ["Next.js", "mySQL", "Laravel"],
+      imageUrl: "/assets/projects/kinematica.svg",
     },
     {
-      name: "You Optimised",
-      link: "https://www.youoptimised.com/",
-      description:
-        "I developed 'You Optimised,' a comprehensive health management platform using Next.js with Tailwind CSS for the frontend and NestJS for the backend. It features separate dashboards for doctors and patients, integrating the Terra API to fetch health stats from wearable devices for the patient dashboard.",
+      name: "RP Ateliers – Architectural design",
+      link: "https://www.rpateliers.com/",
+      description:"RP Ateliers specializes in architectural design, creating detailed building maps with high-resolution visuals. They offer a smooth and interactive user experience. Our focus is on optimizing high-resolution images to enhance performance without compromising quality.",
       technologies: [
         "Next.js",
         "Tailwind CSS",
@@ -23,66 +21,21 @@ export default function Projects() {
         "MongoDB",
         "AWS SDK for Javascript (v3)",
       ],
-      imageUrl: "/assets/projects/logo-youoptimised.png",
+      imageUrl: "/assets/projects/rpa.svg",
     },
     {
-      name: "Eddii Health",
-      link: "https://www.eddiihealth.com/",
+      name: "Sebastian Voyage – Travel",
+      link: "https://sebastianvoyage.com/",
       description:
-        "Eddii Health is a health-focused platform with tailored features for monitoring mental health, nutrition, and physical activity. I used React, TypeScript, and Firebase to build the platform's scalable architecture.",
-      technologies: ["React", "TypeScript", "Firebase"],
-      imageUrl: "/assets/projects/logo-eddii.png",
-    },
-    {
-      name: "Respondent.io",
-      link: "https://www.respondent.io/",
-      description:
-        "I led the development of a web application using Prismic CMS and Next.js. I designed and implemented a custom UI using Tailwind CSS. My responsibilities encompassed the full project lifecycle, from concept to deployment, and included both front-end and back-end development. This experience allowed me to refine my skills in web development and UI/UX design, demonstrating my ability to work independently on a full-stack project",
-      technologies: ["Prismic CMS", "Next.js"],
-      imageUrl: "/assets/projects/logo-responded.svg",
-    },
-    {
-      name: "Usee-360",
-      link: "https://usee-360.com/",
-      description:
-        "I contributed to the development of Usee-360, a revolutionary real estate application. Working alongside a talented team, I played a key role in implementing the frontend using React and developing the backend infrastructure with Node.js and PostgreSQL. Usee-360 offers users an immersive 360-degree viewing experience, transforming the way they interact with property listings. Together, we created a scalable and intuitive solution that revolutionized the real estate industry by leveraging the power of React for the frontend and utilizing Node.js and PostgreSQL for the backend.",
-      technologies: ["Node.js", "React.js", "PostgreSQL", "Express.js"],
-      imageUrl: "/assets/projects/logo-usee.png",
-    },
-    {
-      name: "InvoHub",
-      link: "https://hub.invozone.com/",
-      description:
-        "I had the incredible opportunity to contribute significantly to Invohub, an advanced ERP software. As an integral part of the team, I played a pivotal role in elevating the code architecture and enhancing the overall code quality. Through the adoption of TypeScript, we successfully migrated the codebase, harnessing its benefits to drive improved efficiency, scalability, and maintainability. This exhilarating project allowed me to further refine my expertise in code architecture while delivering a robust and cutting-edge ERP solution.",
-      technologies: [
-        "NestJS",
-        "Node.js",
-        "React.js",
-        "PostgreSQL",
-        "TypeScript",
-        "Next.js",
-      ],
-      imageUrl: "/assets/projects/logo-invohub.png",
-    },
-    {
-      name: "Revbits ZTN",
-      link: "https://www.revbits.com/",
-      description:
-        "I had the opportunity to work on an innovative cybersecurity project called RevBits Zero Trust Network. As part of a skilled team, we developed a secure remote access solution using Node.js, Angular, and PostgreSQL. This project aimed to address the security challenges faced by organizations in managing remote workforce, BYOD assets, and third-party access. The solution incorporated encryption, authentication, and granular access controls, ensuring secure and controlled connectivity to internal network assets and applications. By leveraging the power of PostgreSQL, we implemented robust and scalable data storage for the solution. It was a rewarding experience to be involved in building a cutting-edge product that enhances network security in today's dynamic threat landscape.",
-      technologies: [
-        "Socket.io",
-        "Node.js",
-        "PostgreSQL",
-        "Express.js",
-        "AngularJS",
-      ],
-      imageUrl: "/assets/projects/logo-revbits.svg",
+        "Sebastian Voyage is a travel and hotel booking platform that provides users with real-time access to flights and accommodations. Built with Next.js for a fast and responsive frontend and Node.js with Express.js for a scalable backend, the website integrates Duffel API to ensure seamless booking experiences, real-time availability, and smooth transactions.",
+      technologies: ["React.js", "Node.js", "Express.js ", "Duffel"],
+      imageUrl: "/assets/projects/sebastian.png",
     },
     {
       name: "Rydelinx",
       link: "https://www.rydelinx.com/",
       description:
-        "As a software engineer specializing in backend and architecture, I played a vital role in the development and maintenance of the ride-hailing app called Rydelinx. I was responsible for designing and implementing robust backend systems using Node.js and utilized a MongoDB database for efficient data storage and retrieval. In addition, I integrated various third-party services and APIs, such as Stripe for payment processing, Socket.IO for real-time communication, and Google APIs for location services. To ensure scalability and performance, I leveraged cluster technology to optimize the app's performance under high loads. Throughout the project, I collaborated with cross-functional teams, including frontend developers, product managers, and quality assurance engineers, to deliver high-quality software solutions. My contributions helped create a reliable and efficient platform that enhanced the user experience and optimized the overall performance of Rydelinx.",
+      "As a backend-focused software engineer, I played a key role in developing and maintaining Rydelinx, a ride-hailing app. Using Node.js and MongoDB, I built scalable backend systems, integrated third-party services like Stripe, Socket.IO, and Google APIs, and optimized performance with clustering. Collaborating with cross-functional teams, I contributed to a reliable and efficient platform that enhanced user experience.",
       technologies: [
         "Socket.io",
         "Redis",
@@ -93,6 +46,14 @@ export default function Projects() {
       ],
       imageUrl: "/assets/projects/logo-rydelinx.png",
     },
+    {
+      name: "Dragger",
+      link: "https://github.com/mateenbhatti4/Dragger",
+      description:
+        "Dragger is an intuitive web builder designed to simplify website creation through an easy-to-use drag-and-drop interface. Built using Python, JavaScript, and jQuery, it enables users to design and customize websites without any coding knowledge. Dragger also features a built-in payment system, allowing users to purchase premium templates and plans for enhanced design flexibility. Whether for personal projects or business needs, Dragger streamlines the web development process, making it accessible to everyone.",
+      technologies: ["jQuery", "Javascript", "Python", "Html"],
+      imageUrl: "",
+    }
   ];
 
   const [showAll, setShowAll] = useState(false);
